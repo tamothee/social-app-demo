@@ -23,7 +23,7 @@ export default withApiAuthRequired(async function handler(req, res) {
           },
           body: JSON.stringify({
             dataSource: process.env.MONGODB_DATA_SOURCE,
-            database: "social_butterfly",
+            database: "IOTS_dashboard",
             collection: "users",
           }),
         });
